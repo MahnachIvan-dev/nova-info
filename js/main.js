@@ -4,7 +4,7 @@
 var SITE_CONFIG = {
 
     // ЛОГО СТУДИИ (в хедере и футере)
-    logo: 'https://i.postimg.cc/k4GXxySP/nova-av.jpg',
+    logo: 'https://i.ibb.co/k2c77mCs/nova-av.jpg',
 
     // ТОП БАННЕР (широкий, над контентом)
     topBanner: {
@@ -26,16 +26,16 @@ var SITE_CONFIG = {
     ],
 
     // КАРТИНКА ДЛЯ СТРАНИЦЫ 404
-    notFoundImage: 'https://i.postimg.cc/rFBBjNvH/5467816418528139499-121.jpg',
+    notFoundImage: 'https://i.ibb.co/N6XST3D6/56121.jpg',
 
     // БАННЕР ПОРТФОЛИО (сверху на странице портфолио)
     portfolioBanner: '',
 
     // МУНИКС ЛОГО (в цитате на странице munixx)
-    munixxLogo: 'https://i.postimg.cc/ZqPhcLyV/image.png',
+    munixxLogo: 'https://i.ibb.co/Q3mgV8Hz/image.png',
 
     // NOVA ЛОГО (в цитате на странице портфолио)
-    novaCiteLogo: 'https://i.postimg.cc/k4GXxySP/nova-av.jpg',
+    novaCiteLogo: 'https://i.ibb.co/k2c77mCs/nova-av.jpg',
 
     // 12 КАРТИНОК ГАЛЕРЕИ ПОРТФОЛИО
     // src — прямая ссылка на картинку
