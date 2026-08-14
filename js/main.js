@@ -8,21 +8,21 @@ var SITE_CONFIG = {
 
     // ТОП БАННЕР (широкий, над контентом)
     topBanner: {
-        image: '',   // прямая ссылка на картинку
-        link: ''     // куда ведёт клик
+        image: 'https://i.ibb.co/WWQQ5gm6/v-DNbw-1.png',   // прямая ссылка на картинку
+        link: 'https://t.me/Dialogue_Enginebot'     // куда ведёт клик
     },
 
     // ЛЕВЫЕ БОКОВЫЕ БАННЕРЫ (сверху вниз)
     // Можно добавить сколько угодно — просто копируй строки
     leftSidebarAds: [
-        { image: '', link: '' },
-        { image: '', link: '' }
+        { image: 'https://i.ibb.co/r217rJ6X/PKKBy.png', link: 'https://t.me/Dialogue_Enginebot' }
+        
     ],
 
     // ПРАВЫЕ БОКОВЫЕ БАННЕРЫ (сверху вниз)
     rightSidebarAds: [
-        { image: '', link: '' },
-        { image: '', link: '' }
+        { image: 'https://i.ibb.co/84c24ttb/Hfx-XI.png', link: 'https://t.me/Dialogue_Enginebot' }
+     
     ],
 
     // КАРТИНКА ДЛЯ СТРАНИЦЫ 404
