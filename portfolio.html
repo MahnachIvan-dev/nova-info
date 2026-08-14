@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио NOVA — NOVA Creative Studio</title>
+    <link rel="icon" href="https://i.ibb.co/4gg6XNq1/image.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="loader-screen"><div class="loader-ring"></div></div>
+
+    <header class="header">
+        <div class="header-inner">
+            <a href="index.html" class="header-logo">
+                <img data-logo alt="NOVA Logo">
+                <div class="header-logo-texts">
+                    <span class="header-logo-title">NOVA</span>
+                    <span class="header-logo-sub">CREATIVE STUDIO</span>
+                </div>
+            </a>
+            <nav class="header-nav">
+                <a href="info.html">Info</a>
+                <a href="portfolio.html" class="active">Портфолио</a>
+                <a href="projects.html">Проекты</a>
+                <a href="services.html">Услуги</a>
+                <a href="community.html">Комьюнити</a>
+                <a href="partners.html">Партнёры</a>
+            </nav>
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <div class="top-banner-wrap ad-slot" data-top-banner>
+        <div class="top-banner">
+            <a href="" target="_blank" data-ad>
+                <img src="" alt="Top Banner" data-ad-img>
+            </a>
+        </div>
+    </div>
+
+    <div class="page-layout" id="pageLayout">
+        <aside class="sidebar sidebar-left" data-sidebar="left"></aside>
+
+        <div class="content-wrapper">
+            <main class="content">
+                <section class="page-hero">
+                    <h1 class="page-title">Портфолио NOVA</h1>
+                    <p class="page-subtitle">Наши лучшие работы и кейсы</p>
+                </section>
+
+
+                <div class="cite-block fade-in">
+                    <img data-nova-cite-logo alt="NOVA">
+                    <div class="cite-block-text">
+                        NOVA — портфолио наших лучших проектов. Каждый проект уникален.
+                    </div>
+                </div>
+
+                <div class="text-content fade-in">
+                    <h3 class="text-content-title">О портфолио</h3>
+                    <p>Здесь собраны наши лучшие работы. Нажмите на любую картинку, чтобы открыть на весь экран.</p>
+                </div>
+
+                <!-- Галерея генерируется из JS -->
+                <div class="gallery fade-in" data-gallery></div>
+
+                <div class="lightbox" id="lightbox">
+                    <button class="lightbox-close" onclick="closeLightbox()">&#10005;</button>
+                    <button class="lightbox-prev" onclick="prevImage()">&#8249;</button>
+                    <button class="lightbox-next" onclick="nextImage()">&#8250;</button>
+                    <img class="lightbox-img" id="lightboxImg" src="" alt="">
+                    <div class="lightbox-caption" id="lightboxCaption"></div>
+                    <div class="lightbox-counter" id="lightboxCounter"></div>
+                </div>
+            </main>
+
+            <footer class="footer">
+                <div class="footer-content">
+                    <div class="footer-col">
+                        <div class="footer-logo">
+                            <img data-logo alt="Logo">
+                            <span>NOVA</span>
+                        </div>
+                        <p>NOVA Creative Studio — креативные проекты нового поколения.</p>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Навигация</h4>
+                        <a href="info.html">Info</a>
+                        <a href="munixx.html">Munixx</a>
+                        <a href="portfolio.html">Портфолио NOVA</a>
+                        <a href="projects.html">Наши Проекты</a>
+                        <a href="partners.html">Партнёры</a>
+                        <a href="community.html">Комьюнити</a>
+                        <a href="services.html">Услуги</a>
+                    </div>
+                    
+                </div>
+                <div class="footer-bottom">
+                    <p>NOVA Creative Studio</p>
+                </div>
+            </footer>
+        </div>
+
+        <aside class="sidebar sidebar-right" data-sidebar="right"></aside>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
