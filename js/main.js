@@ -68,7 +68,7 @@ var SITE_CONFIG = {
      munixxImages: {
         // Секция "О проекте"
         about: [
-            'https://i.postimg.cc/dVzGLLZL/image.png',  // первая картинка
+            'https://i.ibb.co/TxcvWzqM/image.png',  // первая картинка
             'https://i.postimg.cc/Gt24MCsh/image.png'   // вторая картинка (если нужна)
         ],
         // Секция "Документация"
